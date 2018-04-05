@@ -99,3 +99,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# Glove
+glove.840B.300d.txt
+
+# GoogleWord2vec
+GoogleNews-vectors-negative300.txt
