@@ -1,5 +1,11 @@
 # Snetiment_Model_Template
 The ultimate template to build a Sentiment Model starting from Linear SVM to Word2Vec 
+The sentiment classification model was trained on IMDB Reviews data this [a Kaggle Competition](https://www.kaggle.com/c/word2vec-nlp-tutorial) 
+
+I built two consecutive classifiers, the first is Subjective/ Objective and the second is Positive/ Negative tweets classifier
+The text vectorization using BoW, Tf-Idf, Word2vec, and AraVec CBoW and SkipGram word vectors and sometimes stacked with some statistical numerical features engineeerd from each review 
+I used LR, Linear SVM, Linear SGD, Multinomial NB, Linear SGD and XGBoost
+Results varied between 72-82% Precision and Recall
 
 To install the required packages, run the following command
 ```bash
